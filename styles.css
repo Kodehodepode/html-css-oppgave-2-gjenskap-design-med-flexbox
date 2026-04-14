@@ -1,5 +1,5 @@
 body {
-    height: 100svh;
+    height: 100svh; /* Omfatter element som skal sentreres vertikalt. */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,7 @@ a {
 .sedans {
     background: hsl(31, 77%, 52%);
 }
+
 .sedans a {
     color: hsl(31, 77%, 52%);
 }
@@ -56,6 +57,7 @@ a {
 .suvs {
     background: hsl(184, 100%, 22%);
 }
+
 .suvs a {
     color: hsl(184, 100%, 22%);
 }
@@ -63,6 +65,7 @@ a {
 .luxury {
     background: hsl(179, 100%, 13%);
 }
+
 .luxury a {
     color: hsl(179, 100%, 13%);
 }
