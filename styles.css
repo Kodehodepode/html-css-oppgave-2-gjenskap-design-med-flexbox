@@ -29,6 +29,10 @@ section {
     width: 16em;
     padding: 2em;
     background: grey;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* unngår at bilder vokser og layouten forskyves. */
 }
 
 a {
@@ -36,6 +40,8 @@ a {
     text-decoration: none;
     border-radius: 100em; /* Garantert større enn knappen, alltid helt rund */
     padding: 0.8em 1.7em;
+
+    margin-top: auto; /* Posisjoner nederst i flex-kolonne */
 }
 
 .sedans {
