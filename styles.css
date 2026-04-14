@@ -28,7 +28,6 @@ main {
 section {
     width: 16em;
     padding: 2em;
-    background: grey;
 
     display: flex;
     flex-direction: column;
