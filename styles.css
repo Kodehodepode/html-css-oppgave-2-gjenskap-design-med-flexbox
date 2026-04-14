@@ -33,16 +33,28 @@ section {
 
 a {
     background: hsl(0, 0%, 95%);
+    text-decoration: none;
+    border-radius: 100em; /* Garantert større enn knappen, alltid helt rund */
+    padding: 0.8em 1.7em;
 }
 
 .sedans {
     background: hsl(31, 77%, 52%);
 }
+.sedans a {
+    color: hsl(31, 77%, 52%);
+}
 
 .suvs {
     background: hsl(184, 100%, 22%);
 }
+.suvs a {
+    color: hsl(184, 100%, 22%);
+}
 
 .luxury {
     background: hsl(179, 100%, 13%);
+}
+.luxury a {
+    color: hsl(179, 100%, 13%);
 }
