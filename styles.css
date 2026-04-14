@@ -23,6 +23,8 @@ p {
 main {
     display: flex;
     height: 30em;
+    border-radius: 8px;
+    overflow: hidden; /* Ellers overlappes border-radiusen av section-elementene */
 }
 
 section {
