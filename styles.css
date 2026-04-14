@@ -1,0 +1,17 @@
+body {
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    height: 30em;
+}
+
+section {
+    width: 16em;
+    padding: 2em;
+    background: grey;
+}
