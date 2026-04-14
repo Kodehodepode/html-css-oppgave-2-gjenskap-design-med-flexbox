@@ -3,6 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: hsl(0, 0%, 95%);
 
     font-size: 15px;
     font-family: "Lexend Deca", sans-serif;
@@ -12,6 +13,11 @@ body {
 h1 {
     font-family: "Big Shoulders", sans-serif;
     font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
 }
 
 main {
@@ -23,4 +29,20 @@ section {
     width: 16em;
     padding: 2em;
     background: grey;
+}
+
+a {
+    background: hsl(0, 0%, 95%);
+}
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
 }
